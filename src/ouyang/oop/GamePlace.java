@@ -16,7 +16,7 @@ public class GamePlace {
     public GamePlace() {
         this.scanner = new Scanner(System.in);
         this.player = new Player();
-        // Polymorphism
+        // Polymorphism (Interface)
         this.weaponStore = new WeaponStoreA();
     }
 
