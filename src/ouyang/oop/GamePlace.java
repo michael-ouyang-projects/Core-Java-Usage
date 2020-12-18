@@ -26,7 +26,7 @@ public class GamePlace {
     }
 
     private void execute() {
-        boolean keepPlaying;
+        boolean keepPlaying = false;
         do {
             showUserValidMovement();
             String input = scanner.nextLine();
