@@ -5,4 +5,7 @@
    * Polymorphism
    
 * Proxy
+   * JDK Proxy
+   * CGLIB
+   
 * ThreadLocal
