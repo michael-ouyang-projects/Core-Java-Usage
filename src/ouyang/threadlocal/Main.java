@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Resource resource = new Resource();
 
-        ExecutorService executor = Executors.newFixedThreadPool(1);
+        ExecutorService executor = Executors.newCachedThreadPool();
         for (int i = 0; i < 10; i++) {
             executor.execute(new Task(i, resource));
         }
