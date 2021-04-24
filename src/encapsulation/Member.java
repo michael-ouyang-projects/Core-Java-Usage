@@ -6,16 +6,8 @@ public class Member {
 	private Integer age;
 
 	public Member(String name, Integer age) {
-		setName(name);
+		this.name = name;
 		setAge(age);
-	}
-
-	public void setName(String name) {
-		if (!name.isBlank()) {
-			this.name = name;
-		} else {
-			this.name = "@@@";
-		}
 	}
 
 	public void setAge(Integer age) {

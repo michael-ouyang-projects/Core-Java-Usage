@@ -6,14 +6,12 @@ public class Main {
 		Member[] members = new Member[5];
 		members[0] = new Member("Amy", 20);
 		members[1] = new Member("Bob", 25);
-		members[2] = new Member("Cathay", 30);
-		members[3] = new Member("   ", 35);
-		members[4] = new Member("Test", 12);
+		members[2] = new Member("Cathay", 12);
 
-		showMembersInfo(members, 5);
+		showMembersInfo(members, 3);
 		System.out.println("----------------------");
-		addAgeToMembers(members, 5);
-		showMembersInfo(members, 5);
+		addAgeToMembers(members, 3);
+		showMembersInfo(members, 3);
 	}
 
 	public static void showMembersInfo(Member[] members, int size) {
