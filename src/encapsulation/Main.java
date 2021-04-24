@@ -3,7 +3,7 @@ package encapsulation;
 public class Main {
 
 	public static void main(String[] args) {
-		Member[] members = new Member[5];
+		Member[] members = new Member[3];
 		members[0] = new Member("Amy", 20);
 		members[1] = new Member("Bob", 25);
 		members[2] = new Member("Cathay", 12);

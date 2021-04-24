@@ -11,11 +11,7 @@ public class Member {
 	}
 
 	public void setAge(Integer age) {
-		if (age >= 18) {
-			this.age = age;
-		} else {
-			this.age = -1;
-		}
+		this.age = age >= 18 ? age : -1;
 	}
 
 	public void showInfo() {

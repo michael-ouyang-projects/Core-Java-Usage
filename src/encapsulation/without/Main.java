@@ -3,7 +3,7 @@ package encapsulation.without;
 public class Main {
 
 	public static void main(String[] args) {
-		Member[] members = new Member[5];
+		Member[] members = new Member[3];
 		members[0] = createMember("Amy", 20);
 		members[1] = createMember("Bob", 25);
 		members[2] = createMember("Cathay", 12);
@@ -15,7 +15,10 @@ public class Main {
 	}
 
 	public static Member createMember(String name, Integer age) {
-		return new Member(name, age >= 18 ? age : -1);
+		Member member = new Member();
+		member.name = name;
+		member.age = age >= 18 ? age : -1;
+		return member;
 	}
 
 	public static void showMembersInfo(Member[] members, int size) {
