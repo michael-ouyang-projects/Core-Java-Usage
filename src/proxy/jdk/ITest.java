@@ -1,4 +1,4 @@
-package ouyang.proxy;
+package proxy.jdk;
 
 public interface ITest {
 

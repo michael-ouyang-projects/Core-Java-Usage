@@ -1,4 +1,4 @@
-package ouyang.threadlocal;
+package threadlocal;
 
 public class Resource {
 

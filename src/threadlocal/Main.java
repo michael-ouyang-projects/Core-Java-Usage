@@ -1,4 +1,4 @@
-package ouyang.threadlocal;
+package threadlocal;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
