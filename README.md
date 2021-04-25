@@ -1,4 +1,4 @@
-# Java-Self-Practice
+# Java-Demo
 * OOP
    * Encapsulation
    * Inheritance
