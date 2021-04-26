@@ -1,4 +1,4 @@
-package polymorphism.without.b;
+package polymorphism.without;
 
 public class VipMember {
 

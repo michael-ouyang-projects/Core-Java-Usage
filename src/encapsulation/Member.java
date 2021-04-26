@@ -7,10 +7,6 @@ public class Member {
 
 	public Member(String name, Integer age) {
 		this.name = name;
-		setAge(age);
-	}
-
-	public void setAge(Integer age) {
 		this.age = age >= 18 ? age : -1;
 	}
 
