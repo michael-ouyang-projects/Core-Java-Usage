@@ -13,9 +13,9 @@ public class Main {
 	}
 
 	public static List<Member> insertMembers(Scanner scanner) {
-		String isContinue = "Y";
 		List<Member> members = new ArrayList<>();
 
+		String isContinue = "Y";
 		while ("Y".equals(isContinue)) {
 			System.out.print("Name: ");
 			String name = scanner.nextLine();

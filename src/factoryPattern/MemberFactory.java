@@ -10,12 +10,4 @@ public class MemberFactory {
 		}
 	}
 
-	public static Member createNormalMember(String name, Integer age) {
-		return new Member(name, age);
-	}
-
-	public static Member createVipMember(String name, Integer age) {
-		return new VipMember(name, age);
-	}
-
 }
