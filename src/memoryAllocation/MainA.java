@@ -1,4 +1,4 @@
-package memory.allocation;
+package memoryAllocation;
 
 import java.util.Arrays;
 

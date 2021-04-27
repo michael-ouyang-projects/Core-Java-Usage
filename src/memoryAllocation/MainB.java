@@ -1,4 +1,4 @@
-package memory.allocation;
+package memoryAllocation;
 
 public class MainB {
 
