@@ -30,7 +30,7 @@ public class Main {
 		classDataB.showStudents();
 
 		showCharData("Michael");
-		showCharData(new StringBuffer("Johnson"));
+		showCharData(new StringBuilder("Johnson"));
 	}
 
 	public static <T extends CharSequence> void showCharData(T data) {
