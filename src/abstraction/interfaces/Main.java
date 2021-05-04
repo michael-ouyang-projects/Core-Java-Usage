@@ -8,6 +8,13 @@ public class Main {
 
 		httpUploader.upload();
 		ftpUploader.upload();
+
+		System.out.println();
+		UploadInterface.showInterfaceNameByStaticMethod();
+
+		System.out.println();
+		httpUploader.showInterfaceNameByDefaultMethod();
+		ftpUploader.showInterfaceNameByDefaultMethod();
 	}
 
 }
