@@ -1,11 +1,3 @@
 # Java-Demo
-* OOP
-   * Encapsulation
-   * Inheritance
-   * Polymorphism
-   
-* Proxy
-   * JDK Proxy
-   * CGLIB
-   
-* ThreadLocal
+
+Demo of Core Java features, classify by package's name.
