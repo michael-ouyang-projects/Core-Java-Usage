@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class MainA {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		// Manual Completion
@@ -21,15 +21,14 @@ public class Main {
 		// Attaching Callable Methods
 		// thenApply
 		// (Need the result of the computation and want to return new value)
-		CompletableFuture.supplyAsync(() -> {
+		CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> {
 			String result = "@ HI";
 			System.out.println(result);
 			return result;
 		}).thenApply(result -> {
-			String newResult = result + " thenApply\n";
-			System.out.println(newResult);
-			return newResult;
+			return result + " thenApply\n";
 		});
+		System.out.println(future2.get());
 
 		// thenAccept
 		// (Need the result of the computation but don't want to return new value)
