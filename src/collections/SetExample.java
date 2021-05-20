@@ -31,9 +31,9 @@ public class SetExample {
 		Set<String> linkedHashSet = new LinkedHashSet<>(list);
 		System.out.println("LinkedHashSet From List: " + linkedHashSet + "\n");
 
-		Set<Member> members = new HashSet<>();
-		Member memberA = new Member("John", 20);
-		Member memberB = new Member("John", 20);
+		Set<MyMember> members = new HashSet<>();
+		MyMember memberA = new MyMember("John", 20);
+		MyMember memberB = new MyMember("John", 20);
 		members.add(memberA);
 		members.add(memberB);
 		System.out.println("Members size: " + members.size() + "\n");
@@ -43,12 +43,12 @@ public class SetExample {
 
 }
 
-class Member {
+class MyMember {
 
 	public String name;
 	public Integer age;
 
-	public Member(String name, Integer age) {
+	public MyMember(String name, Integer age) {
 		this.name = name;
 		this.age = age;
 	}
