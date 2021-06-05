@@ -3,7 +3,7 @@ package tmp;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Test {
+public class TreeSetRotation {
 
 	public static void main(String[] args) {
 		Set<Member> members = new TreeSet<>();

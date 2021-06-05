@@ -2,12 +2,9 @@ package stream;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Main<T, R> {
-
-	List<Function<T, R>> listt;
 
 	public static void main(String[] args) {
 		ArrayList<Integer> listA = new ArrayList<>();
@@ -35,7 +32,6 @@ public class Main<T, R> {
 			return new StringBuilder(s).append("*");
 		}).collect();
 		System.out.println(returnB);
-
 	}
 
 }
