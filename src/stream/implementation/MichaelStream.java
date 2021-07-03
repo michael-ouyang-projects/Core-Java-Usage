@@ -26,7 +26,7 @@ public class MichaelStream<E> {
 		MichaelStream<R> michaelStream = new MichaelStream<>(dataList);
 		michaelStream.function = (Function<Object, Object>) function;
 		michaelStream.headStream = headStream;
-		this.nextStream = (MichaelStream<Object>) michaelStream;
+		nextStream = (MichaelStream<Object>) michaelStream;
 		return michaelStream;
 	}
 
@@ -35,7 +35,7 @@ public class MichaelStream<E> {
 		MichaelStream<E> michaelStream = new MichaelStream<>(dataList);
 		michaelStream.predicate = (Predicate<Object>) predicate;
 		michaelStream.headStream = headStream;
-		this.nextStream = (MichaelStream<Object>) michaelStream;
+		nextStream = (MichaelStream<Object>) michaelStream;
 		return michaelStream;
 	}
 

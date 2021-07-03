@@ -19,6 +19,7 @@ public class Main<T, R> {
 			return new StringBuilder(s).append("*");
 		}).collect(Collectors.toList());
 		System.out.println(returnA);
+		System.out.println(listA);
 
 		MichaelList<Integer> listB = new MichaelList<>();
 		for (int i = 0; i < 10; i++) {
@@ -32,6 +33,7 @@ public class Main<T, R> {
 			return new StringBuilder(s).append("*");
 		}).collect();
 		System.out.println(returnB);
+		System.out.println(listB);
 	}
 
 }
